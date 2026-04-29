@@ -12,7 +12,7 @@ export default function PublicLayout({
 }) {
   return (
     <div className="flex flex-col min-h-screen">
-      <main className="flex-1 flex items-center justify-center bg-gradient-to-br from-slate-900 to-slate-800">
+      <main className="flex-1 flex items-center justify-center">
         {children}
       </main>
     </div>

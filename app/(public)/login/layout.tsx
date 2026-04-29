@@ -1,14 +1,5 @@
-import type { Metadata } from "next";
+"use client";
 
-export const metadata: Metadata = {
-  title: "Login - ProSense",
-  description: "Login to your ProSense account",
-};
-
-export default function LoginLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function Layout({ children }: { children: React.ReactNode }) {
   return <>{children}</>;
 }
