@@ -1,1 +1,0 @@
-// Reports type definitions

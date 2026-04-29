@@ -1,1 +1,0 @@
-// Sensor Details type definitions
